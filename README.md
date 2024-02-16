@@ -1,2 +1,2 @@
 # WuLabUtils
-R package for ultilities which makes common R analysis easier
+R package which simplifies basic bioinformatics workflow, including DESeq, limma, GSEA, clustering and other basic tools. 
