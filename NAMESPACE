@@ -2,10 +2,12 @@
 
 export(combat_correction)
 export(deseq_de)
+export(easy_gsea)
 export(limma_de)
 export(subtype_casting)
 import(DESeq2)
 import(dplyr)
+import(fgsea)
 import(limma)
 importFrom(pamr,pamr.predict)
 importFrom(pamr,pamr.train)
