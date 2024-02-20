@@ -5,6 +5,7 @@
 #' @aliases easy_gsea
 #'
 #' @import fgsea
+#' @importFrom tibble deframe
 #' @export
 
 easy_gsea = function(res, pathways) {
