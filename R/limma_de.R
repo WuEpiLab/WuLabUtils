@@ -9,7 +9,6 @@
 #' @export
 
 limma_de = function(df, group) {
-  library(limma)
 
   vec = colnames(df)
   for (i in c(1:length(vec))) if (vec[i] %in% group) vec[i]='select' else vec[i]='other'

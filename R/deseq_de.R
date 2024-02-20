@@ -4,11 +4,10 @@
 #'
 #' @aliases deseq_de
 #'
-#' @import DESeq2
+#' @importFrom DESeq2 DESeqDataSetFromMatrix DESeq results
 #' @export
 
 deseq_de = function(df, group) {
-  library(DESeq2)
 
   df1 = df[,colnames(df) %in% group]
   df2 = df[,!(colnames(df) %in% group)]
