@@ -2,7 +2,7 @@ Package: WuLabUtils
 Title: Functions for Easier R Analyses
 Version: 0.0.0.1
 Authors@R: 
-    person("Liyan", "Fei", "li.fei@mail.mcgill.ca", role = c("aut", "cre"))
+    person(given = "Liyan", family = "Fei", email = "li.fei@mail.mcgill.ca", role = c("aut", "cre"))
 Description: Functions making basic R analyses easier
 Imports: 
   DESeq2, 
