@@ -2,10 +2,9 @@
 % Please edit documentation in R/easy_de.R
 \name{easy_de}
 \alias{easy_de}
-\alias{deseq_de}
 \title{Simple differential gene expression analysis with DESeq2 and limma}
 \usage{
-deseq_de(df, group, method = "limma")
+easy_de(df, group, method = "limma")
 }
 \description{
 DESeq method requires whole number raw counts, limma seq requires normally distributed data.

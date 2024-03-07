@@ -12,7 +12,7 @@
 #' @importFrom limma lmFit makeContrasts contrasts.fit eBayes topTable
 #' @export
 
-deseq_de = function(df, group, method='limma') {
+easy_de = function(df, group, method='limma') {
 
   if (substr(tolower(method), 1, 5) == 'deseq') {
 

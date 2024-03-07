@@ -4,7 +4,7 @@
 \alias{deseq_de}
 \title{Differentially expressed gene analysis using DESeq2}
 \usage{
-deseq_de(df, group, method = "limma")
+deseq_de(df, group)
 }
 \description{
 Differentially expressed gene analysis using DESeq2
