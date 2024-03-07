@@ -5,7 +5,7 @@
 #' @aliases limma_de
 #'
 #' @import dplyr
-#' @import limma
+#' @importFrom limma lmFit makeContrasts contrasts.fit eBayes topTable
 #' @export
 
 limma_de = function(df, group) {
