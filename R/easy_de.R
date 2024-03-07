@@ -17,8 +17,7 @@ easy_de = function(df, group, method='limma') {
   if (substr(tolower(method), 1, 5) == 'deseq') {
 
     # Check if input is whole number
-
-    if (sum(round(df) != df) == 0) stop('Input has to raw counts when using method "deseq"')
+    # if (sum(round(df) != df) == 0) stop('Input has to raw counts when using method "deseq"')
 
     # Standard DESeq procedure
 
