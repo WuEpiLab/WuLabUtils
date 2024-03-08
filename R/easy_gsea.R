@@ -10,6 +10,11 @@
 
 easy_gsea = function(res, pathways) {
 
+  # See if pathways is a text file or pathway object
+  if (typeof(pathways) == 'character') {
+    pathways <- gmtPathways(pathways)
+  }
+
   # Test if input dataframe is from DESeq or limma
   if ('stat' %in% colnames(res)) {
     res2 <- data.frame(symbol=rownames(res), res$stat)

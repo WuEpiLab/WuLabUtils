@@ -1,6 +1,6 @@
 Package: WuLabUtils
 Title: Functions for Easier R Analyses
-Version: 0.0.0.1
+Version: 0.1.0.2
 Description: Functions making basic R analyses easier
 Authors@R: 
     person(given = "Liyan", family = "Fei", email = "li.fei@mail.mcgill.ca", role = c("aut", "cre"))
