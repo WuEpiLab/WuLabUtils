@@ -4,7 +4,7 @@
 \alias{subtype_casting}
 \title{casting subtypes into another model}
 \usage{
-subtype_casting(testData, him)
+subtype_casting(data, ref)
 }
 \description{
 casting subtypes into another model
